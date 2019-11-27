@@ -1,0 +1,26 @@
+Backend - API
+
+There are 3 url to access api from localhost
+
+http://127.0.0.1:8000/user/  - > it list users
+http://127.0.0.1:8000/list-abstract/ -> it list lists 
+http://127.0.0.1:8000/list/ -> it lists items 
+
+There are post, get and delete methods available.
+
+
+Frontend
+There are triple classes for user, list-abstract and list.
+Every triple has service class that provide backend services post, get and delete.
+Other triple for listing objects that stay on database. Only it is active for item objects.
+Other triple is create and delete objects that being on database. Also, it is only active for item objects.
+
+On Frontend
+
+There are register, login, create list abstract, item and create item sections. ar
+
+From register section new user creates. Gives alert.
+From login part user try to entry. Then gives alert.
+From create list abstract part user create new list
+In item part created items are listed. User can delete item from this part.
+From item create part user can create item. But it does not work properly.
